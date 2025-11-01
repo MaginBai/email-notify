@@ -1,6 +1,6 @@
 import mail_notifier
 
-
+#test
 if __name__ == '__main__':
     notifier = mail_notifier.MailNotifier()
     # Получатель, если нет письма смотреть в Спаме
