@@ -1,11 +1,11 @@
 import mail_notifier
 
-#test
+# test
 if __name__ == '__main__':
     notifier = mail_notifier.MailNotifier()
     # Получатель, если нет письма смотреть в Спаме
     recipient = 'test@gmail.com'
     subject = 'Тестовое уведомление'
-    body = 'Это тестовое сообщение от Python скрипта'
+    body = 'Это тестовое сообщ1ение от Python скрипта'
 
     notifier.send_email(recipient, subject, body)
